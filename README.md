@@ -21,7 +21,7 @@ In addition, there are wind-farm assets in Maharashtra with an installed capacit
 
 <h2> About the Data </h2>: The data about Bajaj Finserv here is from 26 May 2008 to 30 September 2020.It has been taken from kaggle: https://www.kaggle.com/rohanrao/nifty50-stock-market-data.
 The Open and Close columns indicate the opening and closing price of the stocks on a particular day.
-<h3>Important Features in the Data</h3>:
+<h4>Important Features in the Data</h4>:
 1. The Open and Close columns indicate the opening and closing price of the stocks on a particular day.
 2. The High and Low columns provide the highest and the lowest price for the stock on a particular day, respectively.
 3. The Volume column tells us the total volume of stocks traded on a particular day.
