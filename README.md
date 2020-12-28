@@ -19,18 +19,18 @@ During the year under review, Bajaj Financial Holdings Ltd., a wholly-owned subs
 In addition, there are wind-farm assets in Maharashtra with an installed capacity of 65.2 MW.
 
 
-<h2> About the Data </h2>: The data about Bajaj Finserv here is from 26 May 2008 to 30 September 2020.It has been taken from kaggle: https://www.kaggle.com/rohanrao/nifty50-stock-market-data.
+<h2> About the Data :</h2> The data about Bajaj Finserv here is from 26 May 2008 to 30 September 2020.It has been taken from kaggle: https://www.kaggle.com/rohanrao/nifty50-stock-market-data.
 The Open and Close columns indicate the opening and closing price of the stocks on a particular day.
-<h4>Important Features in the Data</h4>:
-1. The Open and Close columns indicate the opening and closing price of the stocks on a particular day.
-2. The High and Low columns provide the highest and the lowest price for the stock on a particular day, respectively.
-3. The Volume column tells us the total volume of stocks traded on a particular day.
+<h4>Important Features in the Data : </h4>
+1. The Open and Close columns indicate the opening and closing price of the stocks on a particular day.<br>
+2. The High and Low columns provide the highest and the lowest price for the stock on a particular day, respectively.<br>
+3. The Volume column tells us the total volume of stocks traded on a particular day.<br>
 4. The volume weighted average price (VWAP) is a trading benchmark used by traders that gives the average price a security has traded at throughout the day, based on both volume and price. It is important because it provides traders with insight into both the trend and value of a security
 
-<h2> Objective </h2>:
+<h2> Objective :</h2>
 Our objective is to predict the Closing Price of Bajaj Finserv on and after 1 October 2020.
 
-<h2> Methods Used</h2>: 
+<h2> Methods Used : </h2> 
 1. Facebook created an open-sourced package called FBProphet which is used for time series forecasting at a scale with ease.Prophet is a procedure for forecasting time series data based on an additive model where non-linear trends are fit with yearly, weekly, and daily seasonality, plus holiday effects.I have used this  method for forecasting the Closing price Bajaj Finserv stock.
 
 2. Secondly I have used ML Models (XGBOOST Regressor)for predicting the Closing Stock prices.For this I took 60 days Closing price as X (independent variable) and Next One day as the y (dependent variable) and repeated this from the entire dataset and then trained the model to predict the y variables from the X variables.So basically it uses the last 60days Closing Price to predict the present Closing Price.
